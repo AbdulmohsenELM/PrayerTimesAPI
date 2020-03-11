@@ -1,0 +1,15 @@
+<body>
+    <div *ngFor="let data of datas">
+        <br>
+        <div class="badr">
+            <h2>{{data.date.hijri.date}} - {{data.date.hijri.weekday.ar}}</h2>
+            <h2>{{data.date.gregorian.date}} - {{data.date.gregorian.weekday.en}}</h2>
+        </div>
+        <h2>{{data.timings.Fajr}} :الفجر</h2>
+        <h2>{{data.timings.Dhuhr}} :الظهر</h2>
+        <h2>{{data.timings.Asr}} :العصر</h2>
+        <h2>{{data.timings.Maghrib}} :المغرب</h2>
+        <h2>{{data.timings.Isha}} :العشاء</h2>
+        <br>
+    </div>
+</body>

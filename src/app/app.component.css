@@ -1,0 +1,23 @@
+div {
+    text-align: center;
+}
+
+body {
+    background-color: cornflowerblue;
+    height: 100%;
+    width: 100%;
+}
+
+div h2,
+a {
+    font-family: consolas;
+    font-weight: bolder;
+    color: wheat
+}
+
+.badr {
+    border-style: dashed;
+    border-color: rgb(255, 255, 255);
+    width: 20%;
+    margin-left: 39.5%
+}
